@@ -1,0 +1,61 @@
+.option {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.multiSelect {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    width: 200px;
+}
+
+.wrap {
+    text-align: initial;
+    width: 200px;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    max-height: 172px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.footer {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+    width: 200px;
+}
+
+.MuiButton-root:hover {
+    background-color: white !important;
+}
+
+.MuiButton-label {
+    text-transform: capitalize;
+    margin-right: 8px;
+    font-weight: 600;
+}
+
+.popup {
+    box-shadow: 0 4px 8px 2px #CCCCCC;
+}
+
+.MuiSvgIcon-root {
+    font-size: 36px;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text.clear.Mui-disabled.Mui-disabled,
+.MuiButtonBase-root.MuiButton-root.MuiButton-text.submit.Mui-disabled.Mui-disabled {
+    cursor: not-allowed;
+    pointer-events: auto;
+}
